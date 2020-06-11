@@ -1,0 +1,8 @@
+diagnosis
+treatment
+mechanism
+transmission
+prevention
+case_report
+forecasting
+general
