@@ -2,7 +2,7 @@
 
 This repo provides a platform for testing document classification models on COVID-19 Literature. 
 
-It is an extension of the [Hedwig](https://github.com/castorini/hedwig) library and contains all necessary code to reproduce the results of some document classification models on a COVID-19 dataset created from the [LitCovid](https://www.ncbi.nlm.nih.gov/research/coronavirus/) collection. More information about the models tested and experiments carried out can be found [here]().
+It is an extension of the [Hedwig](https://github.com/castorini/hedwig) library and contains all necessary code to reproduce the results of some document classification models on a COVID-19 dataset created from the [LitCovid](https://www.ncbi.nlm.nih.gov/research/coronavirus/) collection. More information about the models tested and experiments carried out can be found [here](https://arxiv.org/abs/2006.13816).
 
 The Hedwig library was modified to work with a newer version of PyTorch and the Transformers library in order to import custom models. It was also extended to adapt [DocBERT](https://arxiv.org/abs/1904.08398) to use the Longformer model.
 
@@ -10,7 +10,10 @@ The Hedwig library was modified to work with a newer version of PyTorch and the 
 
 ### LitCovid Data
 
-The LitCovid document classification dataset found under the following directory can be used to reproduce the results found in the paper. 
+You can download the LitCovid document classification dataset from August 1<sup>st</sup>, 2020 by following [this link](https://drive.google.com/drive/folders/1xaaf9ZYX5P8s_l4XlFaP2byXLL22jstZ?usp=sharing).
+
+
+Replace the empty `hedwig-data` and `data` directories in this repository with the same directories downloaded from the link above. The data used for training will be under the following directory.
 
 ```
 hedwig-data/datasets/LitCovid/
@@ -18,7 +21,7 @@ hedwig-data/datasets/LitCovid/
 
 You can find a version compatible with the Hedwig library `train.tsv` and a raw version  `LitCovid.train.csv` which includes PMIDs for each article.
 
-We have also included a script to download the most up to date version of the LitCovid dataset by running the following commands:
+We have also included a script to download the most up-to-date version of the LitCovid dataset by running the following commands:
  
 ```bash
 cd scripts
