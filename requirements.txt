@@ -29,7 +29,7 @@ jsonlines==1.2.0
 longformer==0.1
 lxml==4.6.5
 Markdown==3.2.2
-nltk==3.4.5
+nltk==3.6.5
 numpy==1.16.4
 oauthlib==3.1.0
 pandas==1.0.3
