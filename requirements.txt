@@ -27,7 +27,7 @@ jmespath==0.10.0
 joblib==0.15.1
 jsonlines==1.2.0
 longformer==0.1
-lxml==4.6.5
+lxml==4.9.1
 Markdown==3.2.2
 nltk==3.6.6
 numpy==1.21.0
