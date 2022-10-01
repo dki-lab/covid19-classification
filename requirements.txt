@@ -30,7 +30,7 @@ longformer==0.1
 lxml==4.9.1
 Markdown==3.2.2
 nltk==3.6.6
-numpy==1.21.0
+numpy==1.22.0
 oauthlib==3.1.0
 pandas==1.0.3
 parso==0.7.0
