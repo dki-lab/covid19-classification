@@ -24,7 +24,7 @@ ipython==7.16.3
 ipython-genutils==0.2.0
 jedi==0.17.0
 jmespath==0.10.0
-joblib==0.15.1
+joblib==1.2.0
 jsonlines==1.2.0
 longformer==0.1
 lxml==4.9.1
