@@ -67,7 +67,7 @@ torchtext==0.2.3
 torchvision==0.4.2
 tqdm==4.46.0
 traitlets==4.3.3
-transformers==4.30.0
+transformers==4.36.0
 urllib3==1.26.5
 wcwidth==0.1.9
 Werkzeug==2.2.3
