@@ -70,5 +70,5 @@ traitlets==4.3.3
 transformers==4.38.0
 urllib3==1.26.5
 wcwidth==0.1.9
-Werkzeug==2.2.3
+Werkzeug==3.0.3
 zipp==3.1.0
