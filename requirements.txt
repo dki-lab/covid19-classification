@@ -62,7 +62,7 @@ tensorboardX==2.0
 test-tube==0.7.5
 threadpoolctl==2.0.0
 tokenizers==0.7.0
-torch==1.13.1
+torch==2.2.0
 torchtext==0.2.3
 torchvision==0.4.2
 tqdm==4.46.0
