@@ -65,7 +65,7 @@ tokenizers==0.7.0
 torch==1.13.1
 torchtext==0.2.3
 torchvision==0.4.2
-tqdm==4.46.0
+tqdm==4.66.3
 traitlets==4.3.3
 transformers==4.38.0
 urllib3==1.26.5
