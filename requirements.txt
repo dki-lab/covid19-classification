@@ -71,4 +71,4 @@ transformers==4.38.0
 urllib3==1.26.5
 wcwidth==0.1.9
 Werkzeug==3.0.3
-zipp==3.1.0
+zipp==3.19.1
